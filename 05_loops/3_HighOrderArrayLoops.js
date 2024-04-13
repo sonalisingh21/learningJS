@@ -200,3 +200,34 @@ arr1.forEach(greet);
 // python 2 [ 'js', 'java', 'python', 'cpp', 'c#' ]
 // cpp 3 [ 'js', 'java', 'python', 'cpp', 'c#' ]
 // c# 4 [ 'js', 'java', 'python', 'cpp', 'c#' ]
+
+//HOW TO ACCESS ARRAY OF OBJECTS 
+const mycoding  = [
+  {
+    lang : "javascript ",
+    file: ".js"
+  },
+  {
+    lang : "java",
+    file: ".java"
+  },
+  {
+    lang : "phython",
+    file: ".py"
+  },
+  {
+    lang : "html",
+    file: ".html"
+  }
+
+]
+
+mycoding.forEach((values)=>{
+  console.log(values.lang);
+})
+
+// output:
+// javascript 
+// java
+// phython
+// html
